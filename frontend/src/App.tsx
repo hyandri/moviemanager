@@ -1,9 +1,11 @@
+import Container from "./components/Container"
+import MainPage from "./pages/MainPage"
 
 function App() {
   return (
-    <div className="text-3xl">
-      Hello tailwind!
-    </div>
+    <Container>
+      <MainPage />
+    </Container>
   )
 }
 
